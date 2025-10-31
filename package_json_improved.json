@@ -1,0 +1,65 @@
+{
+  "name": "dachshund-emotion-wheel",
+  "version": "2.0.0",
+  "description": "🐕 Ruleta interactiva de emociones con perros salchichas - Descubre tu emoción, crea memes y colecciona logros",
+  "author": "Tu Nombre <tuemail@ejemplo.com>",
+  "license": "MIT",
+  "private": true,
+  "keywords": [
+    "emotion-wheel",
+    "dachshund",
+    "meme-generator",
+    "nextjs",
+    "react",
+    "interactive",
+    "gamification"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tu-usuario/dachshund-emotion-wheel.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tu-usuario/dachshund-emotion-wheel/issues"
+  },
+  "homepage": "https://dachshund-emotion-wheel.vercel.app",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "export": "next export",
+    "analyze": "ANALYZE=true next build",
+    "clean": "rm -rf .next out node_modules/.cache"
+  },
+  "dependencies": {
+    "next": "13.5.6",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "framer-motion": "^10.16.4",
+    "recharts": "^2.10.3",
+    "date-fns": "^2.30.0",
+    "canvas-confetti": "^1.9.2",
+    "react-icons": "^4.12.0"
+  },
+  "devDependencies": {
+    "@next/bundle-analyzer": "^13.5.6",
+    "eslint": "^8.54.0",
+    "eslint-config-next": "13.5.6"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
